@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/triangle-mosaic.png");
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: exo-2;
+    src: url('../font/Exo2-Regular.ttf');
+}
+
+.cover {
+    background: white;
+    padding: 35px;
+    margin: 20px 220px;
+    border-radius: 7px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cover h2 {
+    color: #fc7020;
+    line-height: 0.5;
+    font-size: 25px;
+}
+
+.cover h2:hover {
+    cursor: default;
+    text-decoration: underline;
+}
+
+.cover p {
+    line-height: 2;
+    font-size: 12.5px;
+}
+
+.redirect-login {
+    font-weight: bold;
+    color: #fc7020;
+    text-decoration: none;
+}
+
+.redirect-login:hover {
+    text-decoration: underline;
+}
+
+.error-msg {
+    width: auto;
+}
+
+.error-msg p {
+    color: white;
+    font-size: 12px;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgb(248, 206, 66);
+}
+
+.register-layout table {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.register-layout tr td {
+    font-size: 13px;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.register-layout input {
+    width: 380px;
+    padding: 7px 14px;
+    margin: 2px;
+    margin-left: 100px;
+    outline: none;
+    border: 1.5px solid #CDCDCD;
+    border-radius: 5px;
+}
+
+.register-layout input:focus {
+    border: 1.5px solid #fc7020;
+}
+
+.register-layout .daftar-btn {
+    background: #1BB23F;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    margin-top: 5px;
+    float: right;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.register-layout .daftar-btn:hover {
+    outline: bold;
+    cursor: pointer;
+    background: rgb(21, 133, 47);
+    outline-color: yellowgreen;
+}
+
+.register-layout .btn {
+    background: orange;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.register-layout .btn:hover {
+    background: rgb(231, 150, 0);
+}
+
+.register-layout .register-peg {
+    background: #41B5D9;
+    width: auto;
+}
+
+.register-layout .register-peg:hover {
+    text-decoration: underline;
+}
+
+.register-layout .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.register-layout .register-peg:hover {
+    background: rgb(55, 159, 190);
+}

@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../img/prism.png");
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: exo-2;
+    src: url('../font/Exo2-Regular.ttf');
+}
+
+.cover {
+    background: rgb(250, 250, 250);
+    margin: 60px 300px;
+    padding: 35px;
+    border-radius: 7px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cover h2 {
+    display: inline-block;
+    padding: 20px;
+    background: #1E88E5;
+    color: white;
+    line-height: 0.3;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.cover h2:hover {
+    cursor: default;
+    text-decoration: underline;
+}
+
+.cover p {
+    line-height: 2;
+    font-size: 12.5px;
+}
+
+.redirect-login {
+    font-weight: bold;
+    color: rgb(33, 150, 243);
+    text-decoration: none;
+}
+
+.redirect-login:hover {
+    text-decoration: underline;
+}
+
+.error-msg {
+    width: auto;
+}
+
+.error-msg p {
+    color: white;
+    font-size: 12px;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgb(248, 206, 66);
+}
+
+.register-layout table {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.register-layout tr td {
+    /* border: 1px solid black; */
+    font-size: 13px;
+    width: 100%;
+    padding: 2px 0;
+}
+
+/* form input */
+
+.register-layout input {
+    width: 380px;
+    padding: 7px 14px;
+    margin: 2px;
+    margin-left: 100px;
+    outline: none;
+    border: 1.5px solid #CDCDCD;
+    border-radius: 5px;
+}
+
+.register-layout input:focus {
+    transition-timing-function: ease-out;
+    transition: 0.3s;
+    border: 1.5px solid rgb(33, 150, 243);
+}
+
+.gender-cont {
+    display: inline;
+    margin-left: 100px;
+}
+
+.gender-cont input[type=radio] {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.gender-box input[type=radio] {
+    margin-top: 9px;
+}
+
+.select-minat {
+    padding: 0 10px;
+    height: 30px;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.select-minat:hover {
+    border: 1px solid #1E88E5;
+}
+
+/* end form */
+
+.register-layout .daftar-btn {
+    background: #1E88E5;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    margin-top: 5px;
+    float: right;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.register-layout .daftar-btn:hover {
+    outline: bold;
+    cursor: pointer;
+    background: #2196F3;
+    outline-color: yellowgreen;
+}
+
+.register-layout .btn {
+    background: orange;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.register-layout .btn:hover {
+    background: rgb(231, 150, 0);
+}
+
+.register-layout .register-peg {
+    background: #41B5D9;
+    width: auto;
+}
+
+.register-layout .register-peg:hover {
+    text-decoration: underline;
+}
+
+.register-layout .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.register-layout .register-peg:hover {
+    background: rgb(55, 159, 190);
+}

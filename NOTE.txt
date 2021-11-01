@@ -1,0 +1,16 @@
+Tugas Besar DPW
+
+Tema Website : Toko Online
+
+--------------------------------------------
+Nama/Absen : Ahmad Ridlo Suhardi / 02
+Kelas : MI 1C
+NIM : 1931710137
+--------------------------------------------
+
+--------------------------------------------
+Detail Project
+--------------------------------------------
+Project : akiharabastore
+Database : akirahabastore.sql (sudah include di dalam project)
+Bahasa : HTML, CSS, PHP, JS
